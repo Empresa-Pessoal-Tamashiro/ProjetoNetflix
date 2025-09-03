@@ -60,3 +60,79 @@ body{
     background: rgba(0,0,0,0.5);
     z-index: 1;
 }
+.banner-conteudo{
+    width: 600px;
+    position: relative;
+    z-index: 2;
+}
+.banner-titulo{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.banner-descricao{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+.banner-btn{
+    background: #e50914;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+.banner-btn:hover{
+    box-shadow: 5px 5px 8px #000;
+    transition: 0.5s;
+    transform: translate(5px);
+}
+.sessao-filmes{
+    padding: 20px;
+
+}
+
+.filme-titulo{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.carrosel{
+    position: relative;
+    overflow: hidden;
+}
+.carrosel img{
+    width: 100%;
+    height: auto;
+    display: block ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3 ease-in-out;
+
+}
+.carrosel-lista{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrosel-item{
+    min-width: 200px;
+    padding: 10px;
+}
+
+.btn-carrosel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-anterior{
+    left: 0;
+}
+;.btn-proximo{
+    right: 0;
+}
+.btn-carrosel:hover{
+    transform: scale(110%);
+    color:white;
+}
