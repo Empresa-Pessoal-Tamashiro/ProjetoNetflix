@@ -136,3 +136,9 @@ body{
     transform: scale(110%);
     color:white;
 }
+
+footer{
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
